@@ -1,0 +1,10 @@
+CreateSourceType SyslogDemo1/SyslogDemo1_ST.config
+CreateCollection SyslogDemo1/SyslogDemo1_C.config
+CreateLogSource SyslogDemo1/SyslogDemo1_box1-GA.config
+CreateLogSource SyslogDemo1/SyslogDemo1_box1-IP.config
+#CreateLogSource SyslogDemo1/SyslogDemo1_box2-GA.config
+#CreateLogSource SyslogDemo1/SyslogDemo1_box3-GA.config
+CreateQuickSearch SyslogDemo1/SyslogDemo1_box1_QS.config
+CreateQuickSearch SyslogDemo1/SyslogDemo1_box1_QS_IP.config
+#CreateQuickSearch SyslogDemo1/SyslogDemo1_box2_QS.config
+#CreateQuickSearch SyslogDemo1/SyslogDemo1_box3_QS.config

@@ -1,0 +1,7 @@
+shared/prereq
+shared/box1-files/*.gz
+shared/box1-files/InsightPacks/*.zip
+shared/box2-files/lfa
+shared/dev
+shared/box4-files
+box4*
