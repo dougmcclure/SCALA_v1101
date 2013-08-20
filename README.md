@@ -10,9 +10,9 @@ To install and run the single box scenario :
 
 1. Install Virtualbox (https://www.virtualbox.org/) (tested using 4.2.12 on Windows 7)
 2. Install Vagrant (http://www.vagrantup.com/) (tested using v1.2.2 on Windows 7)
-3. Download the git repo using either ```git clone https://github.com/dougmcclure/UPDATE THIS.git``` or download the repo as a .zip file and unzip
-4. Download SCALA v1101 Trial Version (https://www.ibm.com/developerworks/servicemanagement/bsm/log/downloads.html) and place in the /shared/box1-files directory of the repo
-5. Download the WAS and DB2 Insight Pack zip files and place in the /shared/box1-files/InsightPacks directory of the repo
+3. Download the git repo using either ```git clone https://github.com/dougmcclure/SCALA_v1101/``` or download the repo as a .zip file and unzip
+4. Download SCALA v1101 Trial Version (https://www.ibm.com/developerworks/servicemanagement/bsm/log/downloads.html) and place in the ```/shared/box1-files``` directory of the repo
+5. Download the WAS, DB2, GA and Syslog Insight Pack zip files and place in the ```/shared/box1-files/InsightPacks``` directory of the repo
 6. Open a terminal or Windows command shell and navigate to the box1-scala-v1101 repo directory. Issue the ```vagrant up``` command.
 7. Point your supported browser to https://10.10.10.2:9987/Unity and login with 'unityamdin' and password 'unityadmin'
 8. To SSH to the image, use putty to 10.10.10.2 and login with 'scla' and password 'scla'
